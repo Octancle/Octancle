@@ -11,9 +11,9 @@
  *
  */
 
-Class Octancle {
-  function __construct() {
-    while( $this->Alive ) {
+Class Octancle Extends Y {
+  public function __construct() {
+    while( $this->MyAlive ) {
       $this->Eat();
       $this->Sleep();
       $this->Ngudud();
