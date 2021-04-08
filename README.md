@@ -16,8 +16,8 @@ Class Octancle Extends Y {
     while( $this->MyAlive ) {
       $this->Eat();
       $this->Sleep();
-      $this->Ngudud();
       $this->Coding();
+      $this->Prayer();
       $this->Repeat();
     }
   }
